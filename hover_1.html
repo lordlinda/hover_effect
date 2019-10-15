@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>i love sandhurst</title>
+</head>
+<body>
+	<style>
+	.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 0px;
+  border:solid 1px #bfbfbf;
+   box-shadow: 10px 10px 5px #ccc;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 120%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.img-responsive{
+	max-width: 100%;
+	height:150%;
+	
+}
+
+	</style>
+
+<div class= "tooltip">Hover over me
+<span class ="tooltiptext"><img src="https://bit.ly/2MLxuAq" alt="" class ="img-responsive">
+The Lodge meets regularly to conduct the usual formal business of any small organisation (pay bills, organise social and charitable events, elect new members, etc.).</span> </div>
+</body>
+</html>
